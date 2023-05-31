@@ -1,3 +1,7 @@
+output "resource_group_name" {
+  value = azurerm_resource_group.obabwebserver.name
+}
+
 output "The_subnet_ID" {
  value = azurerm_subnet.obabwebserver-subnet.id
 }
